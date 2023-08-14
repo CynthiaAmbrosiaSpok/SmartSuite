@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests" thread-count="2">
+	
+	<listeners>
+		<!-- <listener class-name="analyzer.MyTransformer"></listener> -->
+		<listener class-name="utilityClasses.Listeners"></listener>
+	</listeners>
+	
+	<test name="ezNotify Web Testsuite">
+		<parameter name="browser" value="chrome"></parameter>
+		<!-- <parameter name="website" value="http://10.50.130.31/eznotify/"></parameter> -->
+		<parameter name="website" value="http://10.50.132.100/eznotify/"></parameter>
+		<parameter name="userid" value="9999"></parameter>
+		
+		<!-- Jenkins Variables
+		<parameter name="browser" value="${browser}"></parameter>
+		<parameter name="website" value="${website}"></parameter>
+		<parameter name="userid" value="${userid}"></parameter> -->
+		
+		<classes>
+			<class name="ezNotify.EncryptPasswords"></class>
+			
+			<!-- <class name="ezNotify.A01CreateEZNotifyEventTest"></class> -->
+			<class name="ezNotify.A02RemoveRecipientsTest"></class>
+			<!-- <class name="ezNotify.A03ReviewGroupsTest"></class>
+			<class name="ezNotify.A04ReviewRecipientsTest"></class>
+			
+			<class name="ezNotify.A05CancelAdvancedOptionsTest"></class>
+			<class name="ezNotify.A06CreateEZNotifyTemplateTest"></class>
+			<class name="ezNotify.A07CheckDefaultAdvancedOptionsTest"></class>
+			<class name="ezNotify.A08CreateFailedEZNotifyEventTest"></class>
+			<class name="ezNotify.A09ViewDevicesTest"></class>
+			<class name="ezNotify.A10CancelActivatedEvent"></class>
+			<class name="ezNotify.A10EZNotifyEventStatusTest"></class>
+			<class name="ezNotify.A11ProcedureLevelChangesTest"></class>
+			<class name="ezNotify.A13EZNotifyResponseTest"></class> -->
+		</classes>
+	</test>
+	
+</suite>

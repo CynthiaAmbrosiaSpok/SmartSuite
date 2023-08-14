@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>TestNG:  Regression Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 18 12:49:22 CDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>65 seconds (65567 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='general.EncryptPasswords.testcases_generalSmartSuite_LoginTest()'><b>testcases_generalSmartSuite_LoginTest</b><br>Test class: general.EncryptPasswords<br>Parameters: QA, , 9999, , OTk5OQ==, 1</td>
+<td></td>
+<td>0</td>
+<td>general.EncryptPasswords@28f2a10f</td></tr>
+<tr>
+<td title='general.EncryptPasswords.testcases_generalSmartSuite_LoginTest()'><b>testcases_generalSmartSuite_LoginTest</b><br>Test class: general.EncryptPasswords<br>Parameters: Dev, , 9705, , aGprbA==, 2</td>
+<td></td>
+<td>0</td>
+<td>general.EncryptPasswords@28f2a10f</td></tr>
+<tr>
+<td title='general.EncryptPasswords.testcases_generalSmartSuite_LoginTest()'><b>testcases_generalSmartSuite_LoginTest</b><br>Test class: general.EncryptPasswords<br>Parameters: Prod, , 5656, , cXdlcg==, 3</td>
+<td></td>
+<td>0</td>
+<td>general.EncryptPasswords@28f2a10f</td></tr>
+<tr>
+<td title='generalSmartSuite.LoginTest.testcases_generalSmartSuite_LoginTest()'><b>testcases_generalSmartSuite_LoginTest</b><br>Test class: generalSmartSuite.LoginTest<br>Parameters: Y, LOGIN TEST, n, 1</td>
+<td></td>
+<td>14</td>
+<td>generalSmartSuite.LoginTest@f736069</td></tr>
+<tr>
+<td title='generalSmartSuite.QuickPageLinkTest.testcases_generalSmartSuite_QuickPageLinkTest()'><b>testcases_generalSmartSuite_QuickPageLinkTest</b><br>Test class: generalSmartSuite.QuickPageLinkTest<br>Parameters: Y, TC43147-US52643 PAGING-QUICK-PAGE-LINK-TOP-RIGHT-OF-PAGE, 9999, Send Page via 'Quick Page' Link, 1</td>
+<td></td>
+<td>26</td>
+<td>generalSmartSuite.QuickPageLinkTest@6da21078</td></tr>
+<tr>
+<td title='generalSmartSuite.SendExternalQuickPageTest.testcases_generalSmartSuite_SendExternalQuickPageTest()'><b>testcases_generalSmartSuite_SendExternalQuickPageTest</b><br>Test class: generalSmartSuite.SendExternalQuickPageTest<br>Parameters: Y, TC42938-US52642 PAGING-EXTERNAL-QUICK-PAGE-URL, testing this message for eighty characters to see what happens when it goes over the limit so this is 107., 1</td>
+<td></td>
+<td>17</td>
+<td>generalSmartSuite.SendExternalQuickPageTest@7fee8714</td></tr>
+<tr>
+<td title='generalSmartSuite.TopRightSearchBarTest.testcases_generalSmartSuite_TopRightSearchBarTest()'><b>testcases_generalSmartSuite_TopRightSearchBarTest</b><br>Test class: generalSmartSuite.TopRightSearchBarTest<br>Parameters: Y, TC10478-US52616 GLOBAL-SEARCH-QUICK-SEARCH-FORM, Paging, TAFFirstName, n, , TAFLastName, TAFFirstName, Profile, INTERN, ADMINISTRATION, , , 1, 1.0, 1</td>
+<td></td>
+<td>2</td>
+<td>generalSmartSuite.TopRightSearchBarTest@4229bb3f</td></tr>
+</table><p>
+</body>
+</html>

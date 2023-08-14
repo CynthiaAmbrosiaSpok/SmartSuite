@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="analyzer.MyTransformer"/>
+    <listener class-name="utilityClasses.Listeners"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="ezNotify Web Testsuite(failed)">
+    <parameter name="website" value="http://10.50.132.100/eznotify/"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="userid" value="9999"/>
+    <classes>
+      <class name="ezNotify.A08CreateFailedEZNotifyEventTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testcases_ezNotify_CreateFailedEZNotifyEventTest" invocation-numbers="0 0 0 0"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ezNotify.A08CreateFailedEZNotifyEventTest -->
+      <class name="ezNotify.A06CreateEZNotifyTemplateTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testcases_ezNotify_CreateEZNotifyTemplateTest" invocation-numbers="0 0 0 0"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ezNotify.A06CreateEZNotifyTemplateTest -->
+      <class name="ezNotify.A11ProcedureLevelChangesTest">
+        <methods>
+          <include name="testcases_ezNotify_CreateEZNotifyEventTest" invocation-numbers="0 0 0 0 1 1 1 1"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ezNotify.A11ProcedureLevelChangesTest -->
+      <class name="ezNotify.A09ViewDevicesTest">
+        <methods>
+          <include name="testcases_ezNotify_ViewDevicesTest" invocation-numbers="0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ezNotify.A09ViewDevicesTest -->
+      <class name="ezNotify.A10CancelActivatedEvent">
+        <methods>
+          <include name="testcases_ezNotify_CreateEZNotifyEventTest" invocation-numbers="0 0 0 0"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- ezNotify.A10CancelActivatedEvent -->
+      <class name="ezNotify.A10EZNotifyEventStatusTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="testcases_ezNotify_CreateEZNotifyEventTest" invocation-numbers="0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- ezNotify.A10EZNotifyEventStatusTest -->
+      <class name="ezNotify.A01CreateEZNotifyEventTest">
+        <methods>
+          <include name="testcases_ezNotify_CreateEZNotifyEventTest" invocation-numbers="0 0 0 0 1 1 1 1"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ezNotify.A01CreateEZNotifyEventTest -->
+      <class name="ezNotify.A05CancelAdvancedOptionsTest">
+        <methods>
+          <include name="testcases_ezNotify_CancelAdvancedOptionsTest" invocation-numbers="0 0 0 0"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- ezNotify.A05CancelAdvancedOptionsTest -->
+      <class name="ezNotify.A04ReviewRecipientsTest">
+        <methods>
+          <include name="testcases_ezNotify_ReviewRecipientsTest" invocation-numbers="0 0 0 0"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ezNotify.A04ReviewRecipientsTest -->
+      <class name="ezNotify.A07CheckDefaultAdvancedOptionsTest">
+        <methods>
+          <include name="testcases_ezNotify_CheckDefaultAdvancedOptionsTest" invocation-numbers="0 0 0 0"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ezNotify.A07CheckDefaultAdvancedOptionsTest -->
+      <class name="ezNotify.A02RemoveRecipientsTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testcases_ezNotify_RemoveRecipientsTest" invocation-numbers="0 0 0 0 1 1 1 1"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ezNotify.A02RemoveRecipientsTest -->
+      <class name="ezNotify.A03ReviewGroupsTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testcases_ezNotify_ReviewGroupsTest" invocation-numbers="0 0 0 0 1 1 1 1"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ezNotify.A03ReviewGroupsTest -->
+      <class name="ezNotify.A13EzNotifyResponseTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testcases_ezNotify_CreateEZNotifyEventTest" invocation-numbers="0 0 0 0"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ezNotify.A13EzNotifyResponseTest -->
+    </classes>
+  </test> <!-- ezNotify Web Testsuite(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

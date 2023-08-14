@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-14T18:36:07 CDT" name="TestSuite" finished-at="2023-08-14T18:36:59 CDT" duration-ms="52265">
+    <groups>
+    </groups>
+    <test started-at="2023-08-14T18:36:07 CDT" name="ezNotify Web Testsuite" finished-at="2023-08-14T18:36:59 CDT" duration-ms="52265">
+      <class name="ezNotify.A02RemoveRecipientsTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T18:36:12 CDT" name="beforeClass" finished-at="2023-08-14T18:36:12 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testcases_ezNotify_RemoveRecipientsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T18:36:12 CDT" name="testcases_ezNotify_RemoveRecipientsTest" data-provider="inputs" finished-at="2023-08-14T18:36:30 CDT" duration-ms="17853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC3102-US54868 SS: ezNotify: Create a new simple event - verify selection and removal of individuals and groups from recipient list.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TAFLastName, TAFFirstName / [TAF], [TAF] [TAF]]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Each]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases_ezNotify_RemoveRecipientsTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T18:36:30 CDT" name="afterMethod" finished-at="2023-08-14T18:36:31 CDT" duration-ms="602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcases_ezNotify_RemoveRecipientsTest status=SUCCESS method=A02RemoveRecipientsTest.testcases_ezNotify_RemoveRecipientsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testcases_ezNotify_RemoveRecipientsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T18:36:31 CDT" name="testcases_ezNotify_RemoveRecipientsTest" data-provider="inputs" finished-at="2023-08-14T18:36:59 CDT" duration-ms="28402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TC3102-US54868 SS: ezNotify: Create a new simple event - verify selection and removal of individuals and groups from recipient list.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TAFLastName, TAFFirstName / [TAF], [TAF] [TAF]]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[All]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases_ezNotify_RemoveRecipientsTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T18:36:59 CDT" name="afterMethod" finished-at="2023-08-14T18:36:59 CDT" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcases_ezNotify_RemoveRecipientsTest status=SUCCESS method=A02RemoveRecipientsTest.testcases_ezNotify_RemoveRecipientsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ezNotify.A02RemoveRecipientsTest -->
+      <class name="ezNotify.EncryptPasswords">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T18:36:07 CDT" name="beforeTest" finished-at="2023-08-14T18:36:11 CDT" duration-ms="3688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.50.132.100/eznotify/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T18:36:11 CDT" name="beforeClass" finished-at="2023-08-14T18:36:11 CDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testcases_generalSmartSuite_LoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T18:36:12 CDT" name="testcases_generalSmartSuite_LoginTest" data-provider="inputs" finished-at="2023-08-14T18:36:12 CDT" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[OTk5OQ==]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases_generalSmartSuite_LoginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T18:36:12 CDT" name="afterMethod" finished-at="2023-08-14T18:36:12 CDT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcases_generalSmartSuite_LoginTest status=SUCCESS method=EncryptPasswords.testcases_generalSmartSuite_LoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.EncryptPasswords@55183b20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T18:36:59 CDT" name="afterSuite" finished-at="2023-08-14T18:37:00 CDT" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- ezNotify.EncryptPasswords -->
+    </test> <!-- ezNotify Web Testsuite -->
+  </suite> <!-- TestSuite -->
+</testng-results>

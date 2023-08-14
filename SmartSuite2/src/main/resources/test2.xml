@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests" thread-count="2">
+	
+	<listeners>
+		<listener class-name="analyzer.MyTransformer"></listener>
+		<listener class-name="utilityClasses.Listeners"></listener>
+	</listeners>
+	
+	<test name="SmartSuite Web Testsuite">
+		<parameter name="browser" value="chrome"></parameter>
+		<!-- <parameter name="website" value="http://10.50.130.31/smartweb/"></parameter> -->
+		<parameter name="website" value="http://10.50.132.100/smartweb/"></parameter>
+		<parameter name="userid" value="9999"></parameter>
+		
+		<!-- Jenkins Variables
+		<parameter name="website" value="${website}"></parameter>
+		<parameter name="userid" value="${userid}"></parameter>
+		<parameter name="browser" value="${browser}"></parameter> -->
+		
+		<classes>
+			<class name="general.EncryptPasswords"></class>
+			
+			<class name="generalSmartSuite.LoginTest"></class>
+			<class name="generalSmartSuite.QuickPageLinkTest"></class>
+			
+		</classes>
+	</test>
+	
+</suite>

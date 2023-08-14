@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests" thread-count="2">
+	
+	<listeners>
+		<!-- <listener class-name="analyzer.MyTransformer"></listener> -->
+		<listener class-name="utilityClasses.Listeners"></listener>
+	</listeners>
+	
+	<test name="Regression Chrome">
+		
+		<parameter name="environment" value="QA"></parameter>
+		<!--  -->
+		<parameter name="browser" value="Chrome"></parameter>
+			<parameter name="chrome_version" value="97.0.4692.71"></parameter>
+			<parameter name="firefox_version" value="94.0.2"></parameter>
+			<parameter name="edge_version" value="97.0.1072.55"></parameter>
+		
+		<parameter name="GeneralSmartSuite_DataTable" value="GeneralSmartSuite.xlsx"></parameter>
+		<parameter name="DirectorySearch_DataTable" value="DirectorySearch.xlsx"></parameter>
+		<parameter name="GlobalSearch_DataTable" value="GlobalSearch.xlsx"></parameter>
+		<parameter name="OnCall_DataTable" value="OnCall.xlsx"></parameter>
+		<parameter name="OnCall_BlockAssignment_DataTable" value="OnCall_BlockAssignment.xlsx"></parameter>
+		<parameter name="OnCall_CalenderAssignment_DataTable" value="OnCall_CalenderAssignment.xlsx"></parameter>
+		<parameter name="OnCall_History_DataTable" value="OnCall_History.xlsx"></parameter>
+		<parameter name="OnCall_SchedulerAssignment_TestData" value="OnCall_SchedulerAssignment.xlsx"></parameter>
+		<parameter name="OnCall_Search_TestData" value="OnCall_Search.xlsx"></parameter>
+		<parameter name="PagingTab_TestData" value="PagingTab.xlsx"></parameter>
+		<parameter name="PatientInfo_TestData" value="PatientInfo.xlsx"></parameter>
+		<parameter name="PersonalProfile_DeviceManagement_TestData" value="PersonalProfile_DeviceManagement.xlsx"></parameter>
+		<parameter name="PersonalProfile_Inbox_TestData" value="PersonalProfile_Inbox.xlsx"></parameter>
+		<parameter name="PersonalProfile_PictureUpload_TestData" value="PersonalProfile_PictureUpload.xlsx"></parameter>
+		<parameter name="PersonalProfile_Profile_TestData" value="PersonalProfile_Profile.xlsx"></parameter>
+		<parameter name="PersonalProfile_QuickViewSettings" value="PersonalProfile_QuickViewSettings.xlsx"></parameter>
+		<parameter name="PersonalProfile_SentItems_TestData" value="PersonalProfile_SentItems.xlsx"></parameter>
+		
+		<classes>
+			<class name="onCall.CalenderAssignment.CalenderNavigationTest"></class>
+			<class name="onCall.CalenderAssignment.CreateModifyAndDeleteAssignmentTest"></class>
+		<!-- <class name="onCall.SchedulerAssignment.AddInstructionsToGroupTest"></class>
+			<class name="generalSmartSuite.LoginTest"></class>
+			<class name="generalSmartSuite.QuickPageLinkTest"></class>
+			<class name="generalSmartSuite.SendExternalQuickPageTest"></class>
+			<class name="generalSmartSuite.TopRightSearchBarTest"></class>
+			
+			<class name="directorySearch.DetailViewSendPageTest"></class>
+			<class name="directorySearch.NavigateSearchResultsTest"></class>
+			<class name="directorySearch.SearchTest"></class>
+			<class name="directorySearch.SendPageTest"></class>
+			
+			<class name="globalSearch.AdvancedSearchLinksTest"></class>
+			<class name="globalSearch.SearchTest"></class>
+			<class name="globalSearch.SendPageMessageTest"></class>
+			
+			<class name="onCall.NavigateTreesTest"></class>
+			<class name="onCall.SearchTodayPersonQuickViewTabsTest"></class> -->
+			
+			<!-- <class name="onCall.BlockAssignment.CalenderNavigationTest"></class>
+			<class name="onCall.BlockAssignment.CreateModifyAndDeleteAssignmentTest"></class>
+			<class name="onCall.BlockAssignment.NonMemberSearch"></class>
+			
+			<class name="onCall.CalenderAssignment.CalenderNavigationTest"></class>
+			<class name="onCall.CalenderAssignment.CreateModifyAndDeleteAssignmentTest"></class>
+			
+			<class name="onCall.History.SearchTest"></class>
+			
+			<class name="onCall.SchedulerAssignment.AddInstructionsToGroupTest"></class>
+			<class name="onCall.SchedulerAssignment.CreateModifyAndDeleteAssignmentTest"></class>
+			<class name="onCall.SchedulerAssignment.MoveAssignmentTest"></class>
+			<class name="onCall.SchedulerAssignment.SearchTest"></class>
+			<class name="onCall.SchedulerAssignment.ShowListTest"></class>
+			<class name="onCall.SchedulerAssignment.ShowShiftsTest"></class>
+			
+			<class name="onCall.Search.SearchTest"></class>
+			
+			<class name="pagingTab.CreateAndSendToPersonalMessageGroupTest"></class>
+			<class name="pagingTab.SearchTest"></class>
+			<class name="pagingTab.SendPageTest"></class>
+			
+			<class name="patientInfo.SearchTest"></class>
+			
+			<class name="personalProfile.DeviceManagement.AddModifyDeleteEmailTest"></class>
+			<class name="personalProfile.DeviceManagement.SendToAllDevicesIconTest"></class>
+			
+			<class name="personalProfile.Inbox.SearchActiveMessagesTest"></class>
+			<class name="personalProfile.Inbox.SearchArchivedMessagesTest"></class>
+			
+			<class name="personalProfile.PictureUpload.PictureUploadTest"></class>
+			
+			<class name="personalProfile.Profile.AddCurrentExceptionTest"></class>
+			<class name="personalProfile.Profile.AddFutureExceptionTest"></class>
+			<class name="personalProfile.Profile.AddModifyDeleteInstructionsTest"></class>
+			<class name="personalProfile.Profile.DirectoryInfoTest"></class>
+			<class name="personalProfile.Profile.StatusUpdateTest"></class>
+			
+			<class name="personalProfile.QuickViewSettings.AddOncallGroupTest"></class>
+			
+			<class name="personalProfile.SentItems.PageLogSearchTest"></class> -->
+		</classes>
+	</test>
+	
+</suite>
