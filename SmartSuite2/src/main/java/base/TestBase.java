@@ -212,6 +212,7 @@ public class TestBase {
 	@BeforeTest
 	@Parameters({"website", "browser", "userid"})
 	public void beforeTest(String website, String browser, String userid) {
+		System.out.println("ASdf");
 		System.out.println("Performing the script's setups (@BeforeSuite)");
 		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
