@@ -179,7 +179,6 @@ public class TestBase {
 			System.out.println("2asdf");
 			WebDriverManager.chromedriver().setup();
 			System.out.println("3asdf");
-			System.out.println("16");
 //			WebDriverManager.chromedriver().browserVersion("105.0.5195.125").setup();
 			try {
 				driver = new ChromeDriver();
@@ -212,19 +211,8 @@ public class TestBase {
 	@BeforeTest
 	@Parameters({"website", "browser", "userid"})
 	public void beforeTest(String website, String browser, String userid) {
-		System.out.println("ASdf");
 		System.out.println("Performing the script's setups (@BeforeSuite)");
-		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-		System.out.println(website);
-		System.out.println(browser);
-		System.out.println(userid);
-		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		
 		//Delete the previous Extent Report
 		ExtentFactory.deleteExtentReport();
 		

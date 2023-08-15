@@ -27,7 +27,13 @@ public class ExtentFactory {
 	
 	public static void deleteExtentReport() {
 		File file = new File(path);
-		
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		System.out.println(path);
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+		System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 		if (file.delete()) {
 			System.out.println("File deleted successfully");
 		} else {
