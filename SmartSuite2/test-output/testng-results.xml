@@ -2,16 +2,16 @@
 <testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-14T18:36:07 CDT" name="TestSuite" finished-at="2023-08-14T18:36:59 CDT" duration-ms="52265">
+  <suite started-at="2023-08-14T20:20:57 CDT" name="TestSuite" finished-at="2023-08-14T20:21:49 CDT" duration-ms="51561">
     <groups>
     </groups>
-    <test started-at="2023-08-14T18:36:07 CDT" name="ezNotify Web Testsuite" finished-at="2023-08-14T18:36:59 CDT" duration-ms="52265">
+    <test started-at="2023-08-14T20:20:57 CDT" name="ezNotify Web Testsuite" finished-at="2023-08-14T20:21:49 CDT" duration-ms="51561">
       <class name="ezNotify.A02RemoveRecipientsTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T18:36:12 CDT" name="beforeClass" finished-at="2023-08-14T18:36:12 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T20:21:02 CDT" name="beforeClass" finished-at="2023-08-14T20:21:02 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="testcases_ezNotify_RemoveRecipientsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T18:36:12 CDT" name="testcases_ezNotify_RemoveRecipientsTest" data-provider="inputs" finished-at="2023-08-14T18:36:30 CDT" duration-ms="17853" status="PASS">
+        <test-method signature="testcases_ezNotify_RemoveRecipientsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T20:21:02 CDT" name="testcases_ezNotify_RemoveRecipientsTest" data-provider="inputs" finished-at="2023-08-14T20:21:20 CDT" duration-ms="17635" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcases_ezNotify_RemoveRecipientsTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T18:36:30 CDT" name="afterMethod" finished-at="2023-08-14T18:36:31 CDT" duration-ms="602" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T20:21:20 CDT" name="afterMethod" finished-at="2023-08-14T20:21:20 CDT" duration-ms="420" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="testcases_ezNotify_RemoveRecipientsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T18:36:31 CDT" name="testcases_ezNotify_RemoveRecipientsTest" data-provider="inputs" finished-at="2023-08-14T18:36:59 CDT" duration-ms="28402" status="PASS">
+        <test-method signature="testcases_ezNotify_RemoveRecipientsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T20:21:20 CDT" name="testcases_ezNotify_RemoveRecipientsTest" data-provider="inputs" finished-at="2023-08-14T20:21:49 CDT" duration-ms="28258" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcases_ezNotify_RemoveRecipientsTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T18:36:59 CDT" name="afterMethod" finished-at="2023-08-14T18:36:59 CDT" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ezNotify.A02RemoveRecipientsTest@74f0ea28]" started-at="2023-08-14T20:21:49 CDT" name="afterMethod" finished-at="2023-08-14T20:21:49 CDT" duration-ms="69" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,7 +127,7 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- ezNotify.A02RemoveRecipientsTest -->
       <class name="ezNotify.EncryptPasswords">
-        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T18:36:07 CDT" name="beforeTest" finished-at="2023-08-14T18:36:11 CDT" duration-ms="3688" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T20:20:57 CDT" name="beforeTest" finished-at="2023-08-14T20:21:01 CDT" duration-ms="3553" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -148,11 +148,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T18:36:11 CDT" name="beforeClass" finished-at="2023-08-14T18:36:11 CDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T20:21:01 CDT" name="beforeClass" finished-at="2023-08-14T20:21:01 CDT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="testcases_generalSmartSuite_LoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T18:36:12 CDT" name="testcases_generalSmartSuite_LoginTest" data-provider="inputs" finished-at="2023-08-14T18:36:12 CDT" duration-ms="330" status="PASS">
+        <test-method signature="testcases_generalSmartSuite_LoginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T20:21:02 CDT" name="testcases_generalSmartSuite_LoginTest" data-provider="inputs" finished-at="2023-08-14T20:21:02 CDT" duration-ms="235" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -188,7 +188,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcases_generalSmartSuite_LoginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T18:36:12 CDT" name="afterMethod" finished-at="2023-08-14T18:36:12 CDT" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T20:21:02 CDT" name="afterMethod" finished-at="2023-08-14T20:21:02 CDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -199,7 +199,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T18:36:59 CDT" name="afterSuite" finished-at="2023-08-14T18:37:00 CDT" duration-ms="432" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:ezNotify.EncryptPasswords@55183b20]" started-at="2023-08-14T20:21:49 CDT" name="afterSuite" finished-at="2023-08-14T20:21:49 CDT" duration-ms="370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
