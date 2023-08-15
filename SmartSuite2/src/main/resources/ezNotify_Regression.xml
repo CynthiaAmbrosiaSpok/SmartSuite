@@ -24,7 +24,7 @@
 			
 			<!-- <class name="ezNotify.A01CreateEZNotifyEventTest"></class> -->
 			<class name="ezNotify.A02RemoveRecipientsTest"></class>
-			<!-- <class name="ezNotify.A03ReviewGroupsTest"></class>
+			<class name="ezNotify.A03ReviewGroupsTest"></class>
 			<class name="ezNotify.A04ReviewRecipientsTest"></class>
 			
 			<class name="ezNotify.A05CancelAdvancedOptionsTest"></class>
@@ -35,7 +35,7 @@
 			<class name="ezNotify.A10CancelActivatedEvent"></class>
 			<class name="ezNotify.A10EZNotifyEventStatusTest"></class>
 			<class name="ezNotify.A11ProcedureLevelChangesTest"></class>
-			<class name="ezNotify.A13EZNotifyResponseTest"></class> -->
+			<!-- <class name="ezNotify.A13EZNotifyResponseTest"></class> -->
 		</classes>
 	</test>
 	
