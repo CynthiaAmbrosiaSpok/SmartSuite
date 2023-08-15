@@ -179,6 +179,7 @@ public class TestBase {
 			System.out.println("2asdf");
 			WebDriverManager.chromedriver().setup();
 			System.out.println("3asdf");
+			System.out.println("3asdf");
 //			WebDriverManager.chromedriver().browserVersion("105.0.5195.125").setup();
 			try {
 				driver = new ChromeDriver();
